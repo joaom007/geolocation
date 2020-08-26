@@ -1,5 +1,6 @@
 const CACHE_NAME = "Where I am";
 const assets = [
+    "/",
     "/index.html",
     "/manifest.json",
     "/css/materialize.min.css",
