@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <!-- Import local css -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+    <link rel="manifest" href="manifest.json" />
+    <!-- ios support -->
+    <link rel="apple-touch-icon" href="img/icon.png" />
+    <meta name="apple-mobile-web-app-status-bar" content="#2196f3" />
+    <meta name="theme-color" content="#2196f3" />
+</head>
+
+<body>
+    <div class="navbar-fixed ">
+        <nav>
+            <div class="nav-wrapper blue">
+                <a href="#" class="brand-logo truncate center">Where I'm</a>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container" id="app">
+        <div class="row">
+            <h3 class="col s12 center">Find your location</h3>
+            <div class="col s12 center">
+                <button class="btn-floating btn-large waves-effect waves-light blue" id="locationBtn">
+                    <i class="material-icons">add_location</i>
+                </button>
+                <p id="pLocation"></p>
+                <iframe id="locationOn" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s12 center">
+                <h5>Install this app</h5>
+                <button class="waves-effect waves-light btn blue" id="btn-instalar" hidden><i class="material-icons right">home</i>Install here</button>
+            </div>
+        </div>
+
+
+        <!--JavaScript at end of body for optimized loading-->
+        <script src="js/materialize.min.js"></script>
+        <script src="js/app.js"></script>
+        <script src="js/instalar.js"></script>
+
+</body>
+
+</html>
