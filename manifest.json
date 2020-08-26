@@ -1,6 +1,6 @@
 {
-    "short_name": "Where I'm",
-    "name": "Where I'm",
+    "short_name": "Where I am",
+    "name": "Where I am",
     "icons": [{
         "src": "img/icon.png",
         "sizes": "192x192",

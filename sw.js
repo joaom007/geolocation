@@ -1,4 +1,4 @@
-const CACHE_NAME = "Where I\'m";
+const CACHE_NAME = "Where I am";
 const assets = [
     "/",
     "/index.html",
@@ -6,8 +6,9 @@ const assets = [
     "/css/materialize.min.css",
     "/css/style.css",
     "/fonts/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2",
+    "/img/icon.png",
     "/js/materialize.min.js",
-    "js/instalar.js",
+    "/js/instalar.js",
     "/js/app.js"
 ];
 
